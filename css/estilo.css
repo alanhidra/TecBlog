@@ -1,0 +1,104 @@
+/* Limpa formatações padrão */
+* {
+	margin: 0;
+	padding: 0;
+  }
+  
+  /* Define tamanho e fonte para o texto da página */
+  body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+  }
+  
+  /* Estilização para o cabeçalho */
+  #area-cabecalho {
+	background-color: #f7b600;
+	padding: 15px;
+	text-align: center;
+  }
+  
+  /* Estilização para a área do logo e menu */
+  #area-logo, #area-menu {
+	padding: 10px;
+  }
+  
+  /* Define tamanho e margem para a área principal */
+  #area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+  }
+  
+  /* Estilização para a área de postagens */
+  #area-postagens {
+	width: 660px;
+	float: left;
+  }
+  
+  /* Estilização para a área lateral */
+  #area-lateral {
+	width: 240px;
+	float: right;
+  }
+  
+  /* Estilização para cada postagem */
+  .postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+  }
+  
+  /* Estilização para o conteúdo lateral */
+  .conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+  }
+  
+  /* Estilização para cada postagem na área lateral */
+  .postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+  }
+  
+  /* Estilização para o rodapé */
+  #rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+  }
+  
+  /* Estilização para links */
+  a {
+	text-decoration: none;  
+  }
+  
+  /* Estilização para links não visitados */
+  a:link, a:visited {
+	color: #f7b600;
+  }
+  
+  /* Estilização para links quando o mouse passa por cima */
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  /* Estilização para links no cabeçalho */
+  #area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+  }
+  
+  #area-cabecalho a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+  }
+  
+  /* Estilização para títulos H1 */
+  h1 {
+	color: #4e4e4e;
+  }  
